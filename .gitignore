@@ -1,0 +1,125 @@
+# ==========================
+# Python
+# ==========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.pyd
+
+# Virtual Environment
+venv/
+.venv/
+env/
+ENV/
+
+# ==========================
+# Environment Variables
+# ==========================
+.env
+.env.*
+!.env.example
+
+# ==========================
+# Jupyter Notebook
+# ==========================
+.ipynb_checkpoints/
+
+# ==========================
+# VS Code
+# ==========================
+.vscode/
+
+# ==========================
+# PyCharm
+# ==========================
+.idea/
+
+# ==========================
+# macOS
+# ==========================
+.DS_Store
+
+# ==========================
+# Windows
+# ==========================
+Thumbs.db
+Desktop.ini
+
+# ==========================
+# Logs
+# ==========================
+*.log
+logs/
+
+# ==========================
+# Build
+# ==========================
+build/
+dist/
+*.egg-info/
+
+# ==========================
+# Testing
+# ==========================
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# ==========================
+# Hugging Face Cache
+# ==========================
+.cache/
+huggingface/
+.huggingface/
+
+# ==========================
+# Ollama Models (optional)
+# Uncomment if stored locally
+# ==========================
+# ollama_models/
+
+# ==========================
+# FAISS / Chroma / Vector DB
+# ==========================
+faiss_index/
+vectorstore/
+vectorstores/
+chroma/
+chroma_db/
+db/
+
+# ==========================
+# SQLite Databases
+# ==========================
+*.db
+*.sqlite
+*.sqlite3
+
+# ==========================
+# Temporary Files
+# ==========================
+*.tmp
+*.temp
+*.bak
+
+# ==========================
+# API Keys / Secrets
+# ==========================
+secrets.json
+credentials.json
+service_account.json
+
+# ==========================
+# Model Checkpoints
+# ==========================
+checkpoints/
+models/
+*.bin
+*.safetensors
+*.gguf
+*.pt
+*.pth
